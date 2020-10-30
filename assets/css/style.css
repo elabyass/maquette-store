@@ -11,18 +11,21 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
 }
 
 header nav { 
     position: fixed;
+    background-color: white;
     width: 100%;
     height: 50px;
     display: flex;
     padding: 0;
     justify-content: space-between;
-    margin-top: 10px;
+    padding-top: 10px;
     top: 0;
+    z-index: 1;
     
 }
 
@@ -34,6 +37,7 @@ nav span{
 
 .icon5{
     margin-right: 20%;
+   
     
 }
 
@@ -101,18 +105,24 @@ h2{
 #items{
     margin-right: 20%;
     margin-left: 20%;
+    
 }
-
 .vetem{
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+.vetem figure{
+    
+    width: 25%;
+}
+.vetem figure img{
     
     width: 100%;
 }
 
-.vetem img {
-    width: 25%;
-    margin: 0;
-    padding: 6px;
-    box-sizing: border-box;
+.vetem span{
+    font-weight: bold;
 }
