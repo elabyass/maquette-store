@@ -11,6 +11,7 @@
 body{
     margin: 0;
     padding: 0;
+    
 }
 
 header nav { 
@@ -21,8 +22,8 @@ header nav {
     padding: 0;
     justify-content: space-between;
     margin-top: 10px;
-    border: green solid 1px;
     top: 0;
+    
 }
 
 
@@ -31,7 +32,10 @@ nav span{
     margin-left: 20px;
 }
 
-
+.icon5{
+    margin-right: 20%;
+    
+}
 
 /* MAIN */
 
@@ -57,7 +61,7 @@ a{
 }
 
 #imgMan{
-
+position: relative;
     background: url("../img/jeans.jpg") no-repeat ;
     background-size: cover;
     width: 60%;
@@ -70,3 +74,45 @@ a{
     
 }
 
+#textImg{
+position: absolute;
+margin-left: 2rem;
+color: white;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-weight: 200;
+}
+
+#textImg button {
+    display: inline;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.6rem ;
+    font-size: 1rem;
+    margin: auto;
+
+}
+
+#items{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.vetem{
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 100%;
+}
+
+.vetem img {
+    width: 25%;
+    margin: 0;
+    padding: 6px;
+    box-sizing: border-box;
+}
